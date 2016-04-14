@@ -15,7 +15,7 @@ users:
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       # - https://github.com/username.keys
-test_user: qwerty
+test_user: qwertyuiop
 web_user: jonny
 web_group: www-data
 web_sudoers:
